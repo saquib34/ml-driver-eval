@@ -1,0 +1,9 @@
+chat_development_log.md
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+.envrc
+*.egg-info/ 

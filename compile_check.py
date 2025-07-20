@@ -14,9 +14,7 @@ def compile_driver(source_path: str, compiler: str = "gcc") -> dict:
     }
 
 def compile_for_architectures(source_path: str) -> dict:
-    """
-    Compiles the source for multiple architectures and returns a dict of results.
-    """
+  
     architectures = {
         "x86_64": "gcc",
         "arm": "arm-linux-gnueabi-gcc",
